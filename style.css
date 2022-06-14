@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fira+Sans:ital,wght@1,100;1,200;1,300;1,400&family=Lobster&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Work+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3,
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.full-html {
+    margin: 30px;
+    position: fixed;
+}
+
+.full-div h3 {
+    color: #ff7485;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.full-div h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.full-div p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.total-card {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.icon i {
+    font-size: 35px;
+    color: #c6611d;
+    margin-bottom: 10px;
+}
+
+.card {
+    height: 222px;
+    width: 168px;
+    display: inline-block;
+}
+
+.total-card .card p {
+    font-size: 15px;
+}
+
+.total-card .card span {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.total-card .card:hover {
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 10px;
+    font-size: large;
+    padding: 20px 15px;
+    transition: 0.5s;
+}
+
+.card-1 {
+    float: left;
+}
+
+.card-3 {
+    float: right;
+}
